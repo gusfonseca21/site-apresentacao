@@ -1,0 +1,130 @@
+.projects-section {
+  padding-top: 8rem;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects-div {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.section-title {
+  font-size: 3rem;
+  margin-bottom: 5rem;
+}
+
+.forkify-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.forkify-image-div {
+  margin: 0 3rem 0 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.forkify-image {
+  border: 2.5px solid #ffa801 !important;
+}
+
+.forkify-image:hover {
+  cursor: pointer;
+}
+
+.project-title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.paragraph {
+  font-size: 1.8rem;
+  margin: 0 3rem 0 3rem;
+  text-align: justify;
+  top: 100%;
+}
+
+.coming-soon-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.coming-soon-image-div {
+  margin: 0 3rem 0 3rem;
+  border: 2px solid #ffa801 !important;
+  font-size: 0;
+}
+
+.github-paragraph {
+  margin-top: 5rem;
+  font-size: 1.8rem;
+  text-align: justify;
+  margin: 5rem 3rem 0 3rem;
+}
+
+.github-anchor:hover {
+  color: #ea2027;
+}
+
+@media (max-width: 1755px) {
+  .projects-section {
+    height: 100%;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+  }
+
+  .github-paragraph {
+    margin-bottom: 5rem;
+  }
+}
+
+@media (max-height: 900px) {
+  .projects-section {
+    height: 100%;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+  }
+}
+
+@media (max-width: 1160px) {
+  .paragraph {
+    font-size: 1.5rem;
+  }
+
+  .github-paragraph {
+    font-size: 1.5rem;
+  }
+
+  .project-title {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .projects-section {
+    height: 100%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+}
+
+@media (max-width: 545px) {
+  .projects-title {
+    font-size: 2.5rem;
+  }
+}

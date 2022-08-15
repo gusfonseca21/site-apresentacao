@@ -15,6 +15,28 @@ a {
   box-sizing: border-box;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+html::-webkit-scrollbar {
+  width: 5px;
+}
+
+html::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #ffa801;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

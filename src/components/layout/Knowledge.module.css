@@ -1,0 +1,142 @@
+.knowledge-section {
+  height: 180vh;
+}
+
+.programming-languages {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.section-title {
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.paragraph {
+  font-size: 1.8rem;
+  color: #ffa801;
+  text-align: justify;
+  flex-wrap: wrap;
+  margin: 0 3rem 0 3rem;
+}
+
+.javascript-div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.javascript-logo {
+  display: flex;
+  justify-content: center;
+  transition: all 300ms ease-in-out;
+}
+
+.html-css-div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+.html-css-logos-div {
+  align-items: center;
+  display: flex;
+  gap: 2rem;
+}
+
+.react-typescript-nextjs-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+}
+
+.reac-typescript-nextjs-logos-div {
+  display: flex;
+  gap: 2rem;
+}
+
+.nextjs-logo-background {
+  width: 90px;
+  height: 90px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.document-anchor {
+  font-weight: 600;
+  color: #cc8601;
+}
+
+.document-anchor:hover,
+.document-anchor:active {
+  color: #ea2027;
+}
+
+.english-language-div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.other-experiences-div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 5rem;
+}
+
+.other-experiences-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+@media (max-height: 900px) {
+  .knowledge-section {
+    height: 100%;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+  }
+}
+
+@media (max-width: 1160px) {
+  .paragraph {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .knowledge-section {
+    height: 100%;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+  }
+}
+
+@media (max-width: 545px) {
+  .section-title {
+    font-size: 2.5rem;
+  }
+}

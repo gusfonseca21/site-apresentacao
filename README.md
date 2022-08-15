@@ -1,5 +1,9 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Sobre o site
+
+O site foi desenvolvido usando React com Typescript, em Next.js.
+
 ## Getting Started
 
 First, run the development server:

@@ -1,0 +1,82 @@
+.welcome-section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 5rem 0 5rem;
+}
+
+.welcome-title {
+  font-family: "Bebas Neue", Helvetica, cursive;
+  font-size: 13rem;
+  letter-spacing: 1px;
+  margin: 0;
+  text-align: center;
+  opacity: 0;
+  transition: all 500ms ease-in;
+}
+
+.welcome-paragraph {
+  text-align: center;
+  font-size: 2rem;
+  margin: 0;
+  opacity: 0;
+  transition: all 500ms ease-in;
+}
+
+.welcome-paragraph span {
+  font-weight: 600;
+}
+
+.show {
+  opacity: 1;
+}
+
+@media (max-width: 610px) {
+  .welcome-title {
+    font-size: 10rem;
+  }
+}
+
+@media (max-height: 680px) {
+  .welcome-title {
+    font-size: 10rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .welcome-title {
+    font-size: 7rem;
+  }
+
+  .welcome-paragraph {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-height: 600px) {
+  .welcome-title {
+    font-size: 8rem;
+  }
+
+  .welcome-paragraph {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-height: 460px) {
+  .welcome-title {
+    font-size: 5rem;
+  }
+
+  .welcome-paragraph {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 351px) {
+  .welcome-title {
+    font-size: 6rem;
+  }
+}

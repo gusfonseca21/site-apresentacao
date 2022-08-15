@@ -1,0 +1,123 @@
+.header-section {
+  height: 4.8rem;
+  width: 100%;
+  background-color: #222f3e;
+  border-bottom: 1px solid #ffa801;
+  position: fixed;
+  top: 0%;
+  z-index: 10;
+  opacity: 0;
+  transition: all 300ms ease-in;
+}
+
+.show {
+  opacity: 1;
+}
+
+.gustavo-fonseca {
+  display: none;
+  flex-direction: column;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 2.5rem;
+  align-items: center;
+  color: #ffa801;
+  justify-content: center;
+}
+
+.navbar-gustavo {
+  font-family: "Bebas Neue", cursive;
+}
+
+.nav-links {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffa801;
+  transition: all 300ms ease-in;
+  
+}
+
+.selected-link {
+  color: #ea2027;
+}
+
+.sobre-mim:hover,
+.sobre-mim:active,
+.conhecimentos:hover,
+.conhecimentos:active,
+.projetos:hover,
+.projetos:active,
+.contato:hover,
+.contato:active,
+.start:hover {
+  color: #ea2027;
+  cursor: pointer;
+}
+
+.menu-icon {
+  display: none;
+  font-size: 3rem;
+  color: #ffa801;
+  cursor: pointer;
+  text-align: center;
+}
+
+.navbar-top {
+  margin-top: 0.7rem;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 1100px) {
+  .header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  .nav-links {
+    flex-direction: column;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .gustavo-fonseca {
+    height: 100%;
+    display: block;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .header-menu-open {
+    height: 100%;
+  }
+
+  .nav-links-menu-open {
+    opacity: 1;
+    justify-content: space-around;
+    height: 88%;
+    pointer-events: all;
+  }
+
+  .gustavo-fonseca-menu-open {
+    height: 100%;
+  }
+}
+
+@media (max-width: 370px) {
+  .gustavo-fonseca {
+    font-size: 2.5rem;
+  }
+
+  .menu-icon {
+    font-size: 2.5rem;
+  }
+}

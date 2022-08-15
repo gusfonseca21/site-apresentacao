@@ -1,0 +1,88 @@
+.contacts-section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.section-title {
+  display: block;
+  font-size: 3rem;
+  color: #ffa801;
+  margin-bottom: 5rem;
+}
+
+.contacts-div {
+  margin-bottom: 10rem;
+  margin: 0 3rem 0rem 3rem;
+}
+
+.main-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.anchor-link {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.anchor-link:hover,
+.anchor-link:active {
+  color: #ea2027;
+}
+
+.github-icon {
+  background-color: #fff;
+  border-radius: 100%;
+}
+
+.link-span {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+@media (max-width: 1350px) {
+  .contacts-section {
+    height: 100%;
+  }
+  .main-div {
+    flex-direction: column;
+  }
+
+  .anchor-link {
+    margin-bottom: 5rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1160px) {
+  .contacts-section {
+    padding-top: 5rem;
+  }
+  .link-span {
+    font-size: 1.8rem;
+  }
+  .anchor-link {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .anchor-link {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .anchor-link {
+    font-size: 1.1rem;
+  }
+}
