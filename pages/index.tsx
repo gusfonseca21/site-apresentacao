@@ -11,8 +11,6 @@ import Knowledge from "../src/components/layout/Knowledge";
 import Projects from "../src/components/layout/Projects";
 import Contacts from "../src/components/layout/Contacts";
 
-import { useScrollPosition } from "../hooks/useScrollPosition";
-
 const Home: NextPage = () => {
   const [showContainer, setShowContainer] = useState("");
 
@@ -22,9 +20,7 @@ const Home: NextPage = () => {
     }, 1 * 1000);
   }, []);
 
-  const scrollPosition = useScrollPosition();
 
-  // console.log(scrollPosition);
   return (
     <div className={`${classes.container} ${showContainer}`}>
       <Header scrollPosition={scrollPosition} />
