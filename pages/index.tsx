@@ -23,7 +23,7 @@ const Home: NextPage = () => {
 
   return (
     <div className={`${classes.container} ${showContainer}`}>
-      <Header scrollPosition={scrollPosition} />
+      <Header/>
       <main className={classes.main}>
         <Welcome />
         <AboutMe />

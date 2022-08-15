@@ -6,7 +6,7 @@ import classes from "./Header.module.css";
 
 import { GiHamburgerMenu } from "react-icons/gi";
 
-const Header: React.FC<{ scrollPosition: number }> = (props) => {
+const Header = () => {
   const [showHeader, setShowHeader] = useState("");
 
   const [menuState, setMenuState] = useState(false);
