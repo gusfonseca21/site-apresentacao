@@ -46,7 +46,8 @@ const Projects = () => {
           <h3 className={classes["project-title"]}>Forkify</h3>
           <p className={classes.paragraph}>
             WebSite que consome uma API, disponibilizando milhares de receitas.
-            Criado usando React, Next.js e Typescript.
+            Criado usando React, Next.js e Typescript. Aplicativo responsivo à
+            diversos tamanhos de tela.
           </p>
         </div>
       </div>

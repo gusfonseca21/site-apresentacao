@@ -79,6 +79,7 @@
 
 .github-anchor:hover {
   color: #ea2027;
+  cursor: pointer;
 }
 
 @media (max-width: 1755px) {
@@ -115,7 +116,7 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .projects-section {
     height: 100%;
     margin-top: 5rem;

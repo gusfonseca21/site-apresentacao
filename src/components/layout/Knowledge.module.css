@@ -1,5 +1,5 @@
 .knowledge-section {
-  height: 180vh;
+  height: 200vh;
 }
 
 .programming-languages {
@@ -127,7 +127,7 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .knowledge-section {
     height: 100%;
     margin-top: 10rem;

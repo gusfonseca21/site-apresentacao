@@ -89,7 +89,7 @@ const Knowledge = () => {
             "React - The Complete Guide (incl Hooks, React Router, Redux)", de
             Maximilian Schwarzmüller. Certificado:{" "}
             <a
-              href="/documents/certificado-javascript.pdf"
+              href="/documents/certificado-react.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className={classes["document-anchor"]}
