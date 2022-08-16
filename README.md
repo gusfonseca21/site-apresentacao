@@ -4,6 +4,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 O site foi desenvolvido usando React com Typescript, em Next.js.
 
+Aplicativo responsivo à diversos e diferentes tipos de telas.
+
 ## Getting Started
 
 First, run the development server:
