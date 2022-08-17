@@ -26,10 +26,6 @@ const AboutMe = () => {
             estudante da UnB, para a programação, me dedicando integralmente ao
             estudo de tecnologias Front-End. Estou à procura da minha primeira experiência profissional na área. Pretendo ampliar, em um futuro próximo, meus conhecimentos de desenvolvimento web aprendendo tecnologias de Back-End, React Native, Sass e algum framework de estilização como Bootstrap, Tailwind, etc.
           </p>
-          <p>
-            
-          </p>
-          <p></p>
         </div>
       </div>
     </section>

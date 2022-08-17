@@ -25,9 +25,13 @@ const Knowledge = () => {
               rel="noopener noreferrer"
               className={classes["document-anchor"]}
             >
-              PDF
+              <Image
+                src="/icons/pdf-icon.svg"
+                height="50px"
+                width="50px"
+                alt="PDF"
+              />
             </a>
-            ;
           </p>
         </div>
         <div className={classes["html-css-div"]}>
@@ -55,9 +59,13 @@ const Knowledge = () => {
               rel="noopener noreferrer"
               className={classes["document-anchor"]}
             >
-              PDF
+              <Image
+                src="/icons/pdf-icon.svg"
+                height="50px"
+                width="50px"
+                alt="PDF"
+              />
             </a>
-            ;
           </p>
         </div>
         <div className={classes["react-typescript-nextjs-div"]}>
@@ -94,9 +102,13 @@ const Knowledge = () => {
               rel="noopener noreferrer"
               className={classes["document-anchor"]}
             >
-              PDF
+              <Image
+                src="/icons/pdf-icon.svg"
+                height="50px"
+                width="50px"
+                alt="PDF"
+              />
             </a>
-            ;
           </p>
         </div>
         <div className={classes["english-language-div"]}>
@@ -122,7 +134,7 @@ const Knowledge = () => {
               alt="Logo Ministério Público Militar"
             />
           </div>
-          <p className={classes.paragraph}>
+          <p className={classes["mpm-paragraph"]}>
             Como estudante de História estagiei durante dois anos no Ministério
             Público Militar, na área de Memória Institucional, realizando
             atividades de pesquisa documental, elaboração de artigos sobre a
@@ -138,11 +150,26 @@ const Knowledge = () => {
               rel="noopener noreferrer"
               className={classes["document-anchor"]}
             >
-              Link
-            </a>{" "}
+              Link{" "}
+            </a>
             para o livro.
           </p>
         </div>
+        <p className={`${classes.paragraph} ${classes.download}`}>
+          Currículo:{" "}
+          <a
+            href="/documents/curriculo.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src="/icons/pdf-icon.svg"
+              height="50px"
+              width="50px"
+              alt="PDF"
+            />
+          </a>
+        </p>
       </div>
     </section>
   );

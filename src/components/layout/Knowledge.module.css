@@ -1,5 +1,6 @@
 .knowledge-section {
-  height: 200vh;
+  height: 210vh;
+  overflow: hidden;
 }
 
 .programming-languages {
@@ -25,6 +26,19 @@
   text-align: justify;
   flex-wrap: wrap;
   margin: 0 3rem 0 3rem;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.mpm-paragraph {
+  font-size: 1.8rem;
+  color: #ffa801;
+  text-align: justify;
+  flex-wrap: wrap;
+  margin: 0 3rem 0 3rem;
+  justify-content: center;
 }
 
 .javascript-div {
@@ -90,6 +104,7 @@
   color: #ea2027;
 }
 
+
 .english-language-div {
   width: 100%;
   display: flex;
@@ -111,6 +126,14 @@
   font-size: 2rem;
   margin-bottom: 2rem;
   text-align: center;
+}
+
+.download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 98%;
+  gap: 1rem;
 }
 
 @media (max-height: 900px) {
