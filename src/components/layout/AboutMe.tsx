@@ -10,8 +10,8 @@ const AboutMe = () => {
         <div className={classes.image}>
           <Image
             src="/images/perfil.jpg"
-              height="270px"
-              width="270px"
+            height="270px"
+            width="270px"
             alt="Foto de Gustavo Fonseca"
             className={classes["image-photo"]}
           />
@@ -24,7 +24,10 @@ const AboutMe = () => {
           <p>
             No início de 2022 transicionei da área de História, enquanto
             estudante da UnB, para a programação, me dedicando integralmente ao
-            estudo de tecnologias Front-End. Estou à procura da minha primeira experiência profissional na área. Pretendo ampliar, em um futuro próximo, meus conhecimentos de desenvolvimento web aprendendo tecnologias de Back-End, React Native, Sass e algum framework de estilização como Bootstrap, Tailwind, etc.
+            estudo de tecnologias Front-End. Estou à procura da minha primeira
+            experiência profissional na área. Pretendo ampliar, em um futuro
+            próximo, meus conhecimentos de desenvolvimento web aprendendo
+            tecnologias de Back-End e React Native.
           </p>
         </div>
       </div>
