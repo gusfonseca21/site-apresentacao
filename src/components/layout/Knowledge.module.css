@@ -1,6 +1,5 @@
 .knowledge-section {
   height: 210vh;
-  overflow: hidden;
 }
 
 .programming-languages {
@@ -104,7 +103,6 @@
   color: #ea2027;
 }
 
-
 .english-language-div {
   width: 100%;
   display: flex;
@@ -132,8 +130,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 98%;
+  width: 100%;
   gap: 1rem;
+  font-weight: 600;
+  margin: 2rem 0 0 0;
 }
 
 @media (max-height: 900px) {

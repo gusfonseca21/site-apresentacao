@@ -156,7 +156,7 @@ const Knowledge = () => {
           </p>
         </div>
         <p className={`${classes.paragraph} ${classes.download}`}>
-          Currículo:{" "}
+          Download do currículo:{" "}
           <a
             href="/documents/curriculo.pdf"
             target="_blank"
