@@ -25,8 +25,8 @@
   text-align: justify;
   flex-wrap: wrap;
   margin: 0 3rem 0 3rem;
-  justify-content: center;
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: 1rem;
 }
@@ -38,6 +38,16 @@
   flex-wrap: wrap;
   margin: 0 3rem 0 3rem;
   justify-content: center;
+}
+
+.download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
+  font-weight: 600;
+  margin: 2rem 0 0 0;
 }
 
 .javascript-div {
@@ -124,16 +134,6 @@
   font-size: 2rem;
   margin-bottom: 2rem;
   text-align: center;
-}
-
-.download {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  gap: 1rem;
-  font-weight: 600;
-  margin: 2rem 0 0 0;
 }
 
 @media (max-height: 900px) {

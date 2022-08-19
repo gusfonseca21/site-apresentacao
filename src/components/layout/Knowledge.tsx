@@ -17,7 +17,7 @@ const Knowledge = () => {
             className={classes["javascript-logo"]}
           />
           <p className={classes.paragraph}>
-            <b>Javascript</b>: Curso na Udemy "The Complete JavaScript Course
+            Javascript: Curso na Udemy "The Complete JavaScript Course
             2022: From Zero to Expert!", de Jonas Schmedtmann. Certificado:{" "}
             <a
               href="/documents/certificado-javascript.pdf"
@@ -50,7 +50,7 @@ const Knowledge = () => {
             />
           </div>
           <p className={classes.paragraph}>
-            <b>HTML</b> e <b>CSS</b>: Curso na Udemy "Build Responsive
+            HTML e CSS: Curso na Udemy "Build Responsive
             Real-World Websites with HTML and CSS", de Jonas Schmedtmann.
             Certificado:{" "}
             <a
@@ -93,7 +93,7 @@ const Knowledge = () => {
             </div>
           </div>
           <p className={classes.paragraph}>
-            <b>React</b>, <b>TypeScript</b> e <b>Next.js</b>: Curso na Udemy
+            React, TypeScript e Next.js: Curso na Udemy
             "React - The Complete Guide (incl Hooks, React Router, Redux)", de
             Maximilian Schwarzmüller. Certificado:{" "}
             <a
