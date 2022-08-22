@@ -22,9 +22,8 @@ const AboutMe = () => {
             Brasília, Distrito Federal.
           </p>
           <p>
-            No início de 2022 transicionei da área de História, enquanto
-            estudante da UnB, para a programação, me dedicando integralmente ao
-            estudo de tecnologias Front-End. Estou à procura da minha primeira
+            Recentemente transicionei da área de História para a programação, onde descobri uma grande paixão pela área de tecnologia, me dedicando integralmente ao
+            estudo de ferramentas Front-End. Estou à procura da minha primeira
             experiência profissional na área. Pretendo ampliar, em um futuro
             próximo, meus conhecimentos de desenvolvimento web aprendendo
             tecnologias de Back-End e React Native.
